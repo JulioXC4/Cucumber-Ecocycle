@@ -20,9 +20,16 @@ Si deseas agregar nuevos features para pruebas o análisis de requerimientos, si
 2. Define los escenarios y pasos en este archivo .feature utilizando Gherkin.
 3. Crea los pasos correspondientes en JavaScript en el directorio features/step_definitions/. Por ejemplo, nuevo_feature_steps.js.
    
-Aquí tienes un ejemplo básico de cómo podrían lucir los pasos:
+Ejemplo:
 
 ```javascript
 const { Given, When, Then } = require('@cucumber/cucumber');
 
 // Define tus pasos Given, When, Then aquí
+```
+## Ejecución de Pruebas
+Para ejecutar las pruebas definidas con Cucumber, utiliza el siguiente comando:
+```javascript
+npm test
+```
+Este comando ejecutará las pruebas definidas en los archivos .feature utilizando Cucumber.
