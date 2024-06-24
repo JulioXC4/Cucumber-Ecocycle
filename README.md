@@ -1,7 +1,7 @@
 ﻿# Cucumber-Ecocycle
 # Ecocycle Gherkin & Cucumber Demo
 
-Este proyecto utiliza Gherkin y Cucumber para el análisis de requerimientos y pruebas automatizadas para Ecocycle, una aplicación destinada a ...
+Este proyecto utiliza Gherkin y Cucumber para el análisis de requerimientos y pruebas automatizadas para Ecocycle.
 
 ## Instalación
 
