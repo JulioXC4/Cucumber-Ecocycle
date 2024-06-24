@@ -3,15 +3,53 @@
 
 Este proyecto utiliza Gherkin y Cucumber para el análisis de requerimientos y pruebas automatizadas para Ecocycle.
 
-## Instalación
+## Instalación de Node.js
 
-Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
+Para poder ejecutar este proyecto localmente, asegúrate de tener Node.js instalado en tu máquina. Node.js es un entorno de ejecución de JavaScript que necesitarás para ejecutar las pruebas y scripts de este proyecto.
 
-1. Clona este repositorio desde GitHub:
+### Instalación de Node.js
 
-   ```bash
-   git clone <url_del_repositorio>
-   cd ecocycle-gherkin
+1. **Descarga de Node.js:**
+   - Ve al sitio web oficial de Node.js: [nodejs.org](https://nodejs.org/).
+   - Descarga la versión recomendada para tu sistema operativo (Windows, macOS, Linux).
+
+2. **Instalación en Windows:**
+   - Ejecuta el instalador descargado y sigue las instrucciones del asistente de instalación.
+
+3. **Instalación en macOS:**
+   - Abre el archivo .pkg descargado y sigue las instrucciones del instalador.
+
+4. **Instalación en Linux:**
+   - Puedes instalar Node.js a través del gestor de paquetes de tu distribución (por ejemplo, `apt` para Ubuntu):
+     ```bash
+     sudo apt update
+     sudo apt install nodejs npm
+     ```
+
+5. **Verificación de la instalación:**
+   - Para asegurarte de que Node.js se haya instalado correctamente, abre una terminal y ejecuta los siguientes comandos:
+     ```bash
+     node --version
+     npm --version
+     ```
+     - `node --version` debería mostrar la versión instalada de Node.js.
+     - `npm --version` debería mostrar la versión instalada de npm, que es el gestor de paquetes de Node.js.
+
+## Ejecución del Proyecto
+
+Una vez que Node.js esté instalado correctamente, puedes proceder con la ejecución del proyecto que utiliza Gherkin y Cucumber para pruebas automatizadas.
+
+1. **Clonar el Repositorio:**
+   - Clona el repositorio desde GitHub como se indica en el README del proyecto.
+
+2. **Instalación de Dependencias:**
+   - Una vez dentro del directorio del proyecto (`ecocycle-gherkin`), instala las dependencias necesarias utilizando npm (el gestor de paquetes de Node.js):
+     ```bash
+     npm install
+     ```
+
+3. **Agregar Nuevos Features:**
+   - Si deseas agregar nuevos escenarios de prueba, sigue las instrucciones proporcionadas en el README para crear archivos `.feature` y definir pasos en JavaScript.
    
 ## Agregar Nuevos Features
 Si deseas agregar nuevos features para pruebas o análisis de requerimientos, sigue estos pasos:
