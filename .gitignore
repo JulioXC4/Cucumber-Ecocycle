@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Config files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Test results
+reports/
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
